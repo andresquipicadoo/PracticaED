@@ -13,6 +13,12 @@
 
 using namespace std;
 
+/**
+ * Compara dos piezas de lego para saber si se pueden embonar.
+ * @param pPiece1 Puntero a la primera pieza de lego a comparar.
+ * @param pPiece2 Punero a la segunda pieza de lego a comparar.
+ * @return cout con el resultado de la comparacion.
+ */
 void embonarLegos(Piece* pPiece1, Piece* pPiece2){
     if(pPiece1->getLength() == pPiece2->getLength() && pPiece1->getWidth() == pPiece2->getWidth()){
         cout << "Se pueden embonar" << endl;
