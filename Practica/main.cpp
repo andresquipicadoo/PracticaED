@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <string>
+#include "clasesLego.cpp"
 
 using namespace std;
 
