@@ -13,7 +13,25 @@
 
 using namespace std;
 
+void embonarLegos(Piece* pPiece1, Piece* pPiece2){
+    if(pPiece1->getLength() == pPiece2->getLength() && pPiece1->getWidth() == pPiece2->getWidth()){
+        cout << "Se pueden embonar" << endl;
+        cout << "Pieza 1: " << endl;
+        pPiece1->printPiece();
+        cout << "Pieza 2: " << endl;
+        pPiece2->printPiece();
+    }else{
+        cout << "No se pueden embonar" << endl;
+    }
+}
+
 int main(){
-    cout << "Hello World" << endl;
+    Piece* legoAzul = new Piece("Azul", "Cuadrado", 2, 2, 1);
+    Piece* legoRojo = new Piece("Rojo", "Rectangulo", 3, 2, 1);
+    Piece* legoVerde = new Piece("Verde", "Cuadrado", 2, 2, 3);
+
+    embonarLegos(legoAzul, legoRojo);
+    embonarLegos(legoAzul, legoVerde);
+    embonarLegos(legoRojo, legoVerde);
     return 0;
 }

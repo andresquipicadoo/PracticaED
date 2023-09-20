@@ -17,36 +17,56 @@ class Piece{
     private:
         string color;
         string shape;
-        int size;
+        int length;
+        int width;
+        int height;
     public:
         // Constructors
-        Piece(string pColor, string pShape, int pSize){
+        Piece(string pColor, string pShape, int pLength, int pWidth, int pHeight){
             this->color = pColor;
             this->shape = pShape;
-            this->size = pSize;
+            this->length = pLength;
+            this->width = pWidth;
+            this->height = pHeight;
         }
-        // Getters and Setters
+        // Getters
         string getColor(){
             return this->color;
         }
         string getShape(){
             return this->shape;
         }
-        int getSize(){
-            return this->size;
+        int getLength(){
+            return this->length;
         }
+        int getWidth(){
+            return this->width;
+        }
+        int getHeight(){
+            return this->height;
+        }
+        // Setters
         void setColor(string pColor){
             this->color = pColor;
         }
         void setShape(string pShape){
             this->shape = pShape;
         }
-        void setSize(int pSize){
-            this->size = pSize;
+        void setLenght(int pLength){
+            this->length = pLength;
         }
+        void setWidth(int pWidth){
+            this->width = pWidth;
+        }
+        void setHeight(int pHeight){
+            this->height = pHeight;
+        }
+        // Methods
         void printPiece(){
             cout << "Color: " << this->color << endl;
-            cout << "Shape: " << this->shape << endl;
-            cout << "Size: " << this->size << endl;
+            cout << "Forma: " << this->shape << endl;
+            cout << "Largo: " << this->length << endl;
+            cout << "Ancho: " << this->width << endl;
+            cout << "Alto: " << this->height << endl;
         }
 };
