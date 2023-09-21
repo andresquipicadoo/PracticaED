@@ -21,8 +21,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab10cc4-4025-467a-ae23-4d71e46e9070" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practica/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practica/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practica/pila.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practica/pila.cpp" afterDir="false" />
     </list>
@@ -90,7 +88,7 @@
       <updated>1695221986592</updated>
       <workItem from="1695221988048" duration="98000" />
       <workItem from="1695222100949" duration="1310000" />
-      <workItem from="1695247268584" duration="10143000" />
+      <workItem from="1695247268584" duration="10584000" />
     </task>
     <servers />
   </component>

@@ -25,12 +25,12 @@ int main() {
     Hogar casa;
 
     casa.construirPared(); // Construir una pared
-    casa.construirPared(); // Construir una pared adicional 
+    casa.construirPared(); // Construir una pared adicional
     casa.construirVentana(); // Construir una ventana
     casa.construirTecho(); // Construir el techo
     casa.construirPiso(); // Construir el piso
 
-    // Mostrar la casa construida
+    // Llamada del metodo mostrarCasa() de de pila.cpp para mostrar la casa.
     casa.mostrarCasa();
     return 0;
 }

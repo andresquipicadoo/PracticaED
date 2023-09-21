@@ -36,7 +36,7 @@ public:
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "pared"
         // El metodo push() se usa  para agregar un objeto de tipo
-        // piezalego a una colección o estructura de datos llamada pared.
+        // piezalego a una estructura de datos llamada pared.
          piezalego pared;
         pared.type = "Pared";
         paredes.push(pared);
@@ -48,7 +48,7 @@ public:
          // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "ventana"
         // El metodo push() se usa  para agregar un objeto de tipo
-        // piezalego a una colección o estructura de datos llamada ventana.
+        // piezalego a una estructura de datos llamada ventana.
          piezalego ventana;
         ventana.type = "Ventana";
         ventanas.push(ventana);
@@ -60,7 +60,7 @@ public:
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "techos"
         // El metodo push() se usa para agregar un objeto de tipo
-        // piezalego a una colección o estructura de datos llamada techo.
+        // piezalego a una estructura de datos llamada techo.
          piezalego techos;
         techos.type = "Techo";
         techo.push(techos);
@@ -73,7 +73,7 @@ public:
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "pisos"
         // El metodo push() se usa para agregar un objeto de tipo
-        // piezalego a una colección o estructura de datos llamada piso.
+        // piezalego a una  estructura de datos llamada piso.
         piezalego pisos;
         pisos.type = "Piso";
         piso.push(pisos);
