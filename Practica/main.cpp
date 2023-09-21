@@ -30,7 +30,7 @@ int main() {
     casa.construirTecho(); // Construir el techo
     casa.construirPiso(); // Construir el piso
 
-    // Llamada del metodo mostrarCasa() de de pila.cpp para mostrar la casa.
+    // Llamada del metodo mostrarCasa() de pila.cpp para mostrar la casa.
     casa.mostrarCasa();
     return 0;
 }

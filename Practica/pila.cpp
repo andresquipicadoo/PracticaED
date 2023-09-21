@@ -22,7 +22,7 @@ struct piezalego {
 class Hogar {
 // Esta clase sirve para modelar los diferentes elementos que componen una casa.
 // Stack se utiliza en este caso para llevar un seguimiento  de los elementos de construcción de la
-// casa como lo son (paredes, ventanas, techo y piso) de la casa de una manera mas especifica
+// casa hecha de lego  como lo son (paredes, ventanas, techo y piso) de la casa de una manera mas especifica
 private:
     stack<piezalego> paredes;
     stack<piezalego> ventanas;
@@ -35,7 +35,7 @@ public:
          //Explicacion :Este metodo de encarga de construir las paredes  de la casa.
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "pared"
-        // El metodo push() se usa  para agregar un objeto de tipo
+        // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada pared.
          piezalego pared;
         pared.type = "Pared";
@@ -47,7 +47,7 @@ public:
          //Explicacion :Este metodo de encarga de construir una ventana para la casa.
          // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "ventana"
-        // El metodo push() se usa  para agregar un objeto de tipo
+        // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada ventana.
          piezalego ventana;
         ventana.type = "Ventana";
@@ -59,7 +59,7 @@ public:
          //Explicacion : Este metodo de encarga de construir el techo para la casa qu en este caso siempre es rojo.
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "techos"
-        // El metodo push() se usa para agregar un objeto de tipo
+        // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada techo.
          piezalego techos;
         techos.type = "Techo";
@@ -72,7 +72,7 @@ public:
         //Explicacion :Este metodo de encarga de construir el piso  para la casa.
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "pisos"
-        // El metodo push() se usa para agregar un objeto de tipo
+        // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una  estructura de datos llamada piso.
         piezalego pisos;
         pisos.type = "Piso";
