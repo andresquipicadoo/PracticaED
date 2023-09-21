@@ -1,0 +1,1 @@
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o CMakeFiles/PracticaEDatos.dir/Practica/pila.cpp.o CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.o -o PracticaEDatos.exe -Wl,--out-implib,libPracticaEDatos.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
