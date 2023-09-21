@@ -7,55 +7,79 @@ using namespace std;
 // Definimos una estructura para representar las piezas de Lego
 struct piezalego {
     string type;
+    int largo;
+    int ancho;
+    int alto;
 };
 
 // Clase para representar una casa
 class Hogar {
-private:
-    stack<piezalego> paredes;
-    stack<piezalego> ventanas;
-    stack<piezalego> techo;
-    stack<piezalego> piso;
+    private:
+        stack<piezalego> paredes;
+        stack<piezalego> ventanas;
+        stack<piezalego> techo;
+        stack<piezalego> piso;
 
-public:
-    void construirPared() {
-        piezalego pared;
-        pared.type = "Pared";
-        paredes.push(pared);
-    }
+    public:
+        /**
+         * @brief Método para construir una pared y agregarla a la pila de paredes.
+         * 
+         */
+        void construirPared() {
+            piezalego pared;
+            pared.type = "Pared";
+            paredes.push(pared);
+        }
 
-    // Método para construir una ventana
-    void construirVentana() {
-        piezalego ventana;
-        ventana.type = "Ventana";
-        ventanas.push(ventana);
-    }
+        /**
+         * @brief Método para construir una ventana y agregarla a la pila de ventanas.
+         * 
+         */
+        void construirVentana() {
+            piezalego ventana;
+            ventana.type = "Ventana";
+            ventanas.push(ventana);
+        }
 
-    // Método para construir el techo
-    void construirTecho() {
-        piezalego techos;
-        techos.type = "Techo";
-        techo.push(techos);
-    }
+        /**
+         * @brief Método para construir el techo y agregarlo a la pila de techos.
+         * 
+         */
+        void construirTecho() {
+            piezalego techos;
+            techos.type = "Techo";
+            techo.push(techos);
+        }
 
-    // Método para construir el piso
-    void construirPiso() {
-        piezalego pisos;
-        pisos.type = "Piso";
-        piso.push(pisos);
-    }
+        /**
+         * @brief Método para construir el piso y agregarlo a la pila de pisos.
+         * 
+         */
+        void construirPiso() {
+            piezalego pisos;
+            pisos.type = "Piso";
+            piso.push(pisos);
+        }
 
-    // Método para mostrar la casa construida
-    void mostrarCasa() {
-        cout << "Casa construida:" << endl;
-        cout << "Paredes: " << paredes.size() << endl;
-        cout << "Ventanas: " << ventanas.size() << endl;
-        cout << "Techo: " << techo.size() << endl;
-        cout << "Piso: " << piso.size() << endl;
-    }
+        /**
+         * @brief Método para mostrar la casa construida.
+         * 
+         */
+        void mostrarCasa() {
+            cout << "Casa construida:" << endl;
+            cout << "Paredes: " << paredes.size() << endl;
+            cout << "Ventanas: " << ventanas.size() << endl;
+            cout << "Techo: " << techo.size() << endl;
+            cout << "Piso: " << piso.size() << endl;
+        }
 };
 
-// Función para evaluar expresiones con pilas
+/**
+ * @brief Función para evaluar expresiones matemáticas utilizando pilas.
+ * 
+ * @param expresion Cadena de caracteres que representa la expresión a evaluar.
+ * @return int Resultado de la evaluación de la expresión.
+ */
 int evaluarExpresion(const string& expresion) {
     stack<int> pila;
     for (char c: expresion) {
