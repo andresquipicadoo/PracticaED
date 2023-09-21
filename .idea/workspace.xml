@@ -22,7 +22,14 @@
   <component name="ChangeListManager">
     <list default="true" id="eab10cc4-4025-467a-ae23-4d71e46e9070" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practica/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practica/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practica/pila.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Practica/pila.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/pila.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/Practica/pila.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticaEDatos.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PracticaEDatos.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PracticaEDatos.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +95,7 @@
       <updated>1695221986592</updated>
       <workItem from="1695221988048" duration="98000" />
       <workItem from="1695222100949" duration="1310000" />
-      <workItem from="1695247268584" duration="4315000" />
+      <workItem from="1695247268584" duration="9320000" />
     </task>
     <servers />
   </component>

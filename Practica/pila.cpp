@@ -4,13 +4,25 @@
 
 using namespace std;
 
-// Definimos una estructura para representar las piezas de Lego
+//Se define una estructura para representar las piezas de Lego
+/**
+ * @struct piezalego
+ * @brief A struct representing a lego piece with its type, length, width and height.
+ */
+
 struct piezalego {
+    // Variables para las dimensiones de la casa las cuales son inputs.
     string type;
+    int largo;
+    int ancho;
+    int alto;
 };
 
-// Clase para representar una casa
+
 class Hogar {
+// Esta clase sirve para modelar los diferentes elementos que componen una casa.
+// Stack se utiliza en este caso para llevar un seguimiento  de los elementos de construcción de la
+// casa como lo son (paredes, ventanas, techo y piso) de la casa de una manera mas especifica
 private:
     stack<piezalego> paredes;
     stack<piezalego> ventanas;
@@ -18,35 +30,60 @@ private:
     stack<piezalego> piso;
 
 public:
+
     void construirPared() {
-        piezalego pared;
+         //Explicacion :Este metodo de encarga de construir las paredes  de la casa.
+        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // que se llama "pared"
+        // El metodo push() se usa  para agregar un objeto de tipo
+        // piezalego a una colección o estructura de datos llamada piso.
+         piezalego pared;
         pared.type = "Pared";
         paredes.push(pared);
     }
 
-    // Método para construir una ventana
+
     void construirVentana() {
-        piezalego ventana;
+         //Explicacion :Este metodo de encarga de construir una ventana para la casa.
+         // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // que se llama "ventana"
+        // El metodo push() se usa  para agregar un objeto de tipo
+        // piezalego a una colección o estructura de datos llamada ventana.
+         piezalego ventana;
         ventana.type = "Ventana";
         ventanas.push(ventana);
     }
 
-    // Método para construir el techo
+
     void construirTecho() {
-        piezalego techos;
+         //Explicacion : Este metodo de encarga de construir el techo para la casa qu en este caso siempre es rojo.
+        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // que se llama "techos"
+        // El metodo push() se usa para agregar un objeto de tipo
+        // piezalego a una colección o estructura de datos llamada techo.
+         piezalego techos;
         techos.type = "Techo";
         techo.push(techos);
     }
 
-    // Método para construir el piso
+
+
     void construirPiso() {
+        //Explicacion :Este metodo de encarga de construir el piso  para la casa.
+        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // que se llama "pisos"
+        // El metodo push() se usa para agregar un objeto de tipo
+        // piezalego a una colección o estructura de datos llamada piso.
         piezalego pisos;
         pisos.type = "Piso";
         piso.push(pisos);
     }
 
-    // Método para mostrar la casa construida
+
+
     void mostrarCasa() {
+         //Explicacion : Este metodo se encarga de mostrar la cantidad de paredes,puertas, ventanas ,pisos y techo que posee
+         // la casa.
         cout << "Casa construida:" << endl;
         cout << "Paredes: " << paredes.size() << endl;
         cout << "Ventanas: " << ventanas.size() << endl;
@@ -54,53 +91,3 @@ public:
         cout << "Piso: " << piso.size() << endl;
     }
 };
-
-// Función para evaluar expresiones con pilas
-int evaluarExpresion(const string& expresion) {
-    stack<int> pila;
-    for (char c: expresion) {
-        if (isdigit(c)) {
-            int numero = c - '0';
-            pila.push(numero);
-        } else if (c == '+') {
-            int operand2 = pila.top();
-            pila.pop();
-            int operand1 = pila.top();
-            pila.pop();
-            pila.push(operand1 + operand2);
-        } else if (c == '-') {
-            int operand2 = pila.top();
-            pila.pop();
-            int operand1 = pila.top();
-            pila.pop();
-            pila.push(operand1 - operand2);
-        }
-    }
-    return pila.top();
-}
-
-int main() {
-    // Punto A: Piezas de Lego de diferentes tipos
-    piezalego pieza1 = {"Pared"};
-    piezalego pieza2 = {"Ventana"};
-    piezalego pieza3 = {"Techo"};
-    piezalego pieza4 = {"Piso"};
-
-    Hogar casa;
-
-    casa.construirPared(); // Construir una pared
-    casa.construirPared(); // Construir otra pared
-    casa.construirVentana(); // Construir una ventana
-    casa.construirTecho(); // Construir el techo
-    casa.construirPiso(); // Construir el piso
-
-    // Mostrar la casa construida
-    casa.mostrarCasa();
-
-    // Punto C: Evaluación de expresiones con pilas
-    string expresion = "2+3-1";
-    int resultado = evaluarExpresion(expresion);
-    cout << "Resultado de la expresión: " << resultado << endl;
-
-    return 0;
-}
