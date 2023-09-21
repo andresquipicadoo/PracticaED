@@ -25,7 +25,7 @@ int main() {
     Hogar casa;
 
     casa.construirPared(); // Construir una pared
-    casa.construirPared(); // Construir otra pared
+    casa.construirPared(); // Construir una pared adicional 
     casa.construirVentana(); // Construir una ventana
     casa.construirTecho(); // Construir el techo
     casa.construirPiso(); // Construir el piso

@@ -36,7 +36,7 @@ public:
         // En este caso la funcion type() se usa para asignar un valor a un objeto
         // que se llama "pared"
         // El metodo push() se usa  para agregar un objeto de tipo
-        // piezalego a una colección o estructura de datos llamada piso.
+        // piezalego a una colección o estructura de datos llamada pared.
          piezalego pared;
         pared.type = "Pared";
         paredes.push(pared);
