@@ -33,7 +33,7 @@ public:
 
     void construirPared() {
          //Explicacion :Este metodo de encarga de construir las paredes  de la casa.
-        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // En este caso type se usa para asignar un valor a un objeto
         // que se llama "pared"
         // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada pared.
@@ -45,19 +45,20 @@ public:
 
     void construirVentana() {
          //Explicacion :Este metodo de encarga de construir una ventana para la casa.
-         // En este caso la funcion type() se usa para asignar un valor a un objeto
+         // En este caso type se usa para asignar un valor a un objeto
         // que se llama "ventana"
         // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada ventana.
          piezalego ventana;
         ventana.type = "Ventana";
         ventanas.push(ventana);
+
     }
 
 
     void construirTecho() {
          //Explicacion : Este metodo de encarga de construir el techo para la casa qu en este caso siempre es rojo.
-        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // En este caso type se usa para asignar un valor a un objeto
         // que se llama "techos"
         // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada techo.
@@ -70,7 +71,7 @@ public:
 
     void construirPiso() {
         //Explicacion :Este metodo de encarga de construir el piso  para la casa.
-        // En este caso la funcion type() se usa para asignar un valor a un objeto
+        // En este caso type se usa para asignar un valor a un objeto
         // que se llama "pisos"
         // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una  estructura de datos llamada piso.

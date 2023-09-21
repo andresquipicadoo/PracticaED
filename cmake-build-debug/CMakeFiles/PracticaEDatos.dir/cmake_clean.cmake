@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.o"
-  "CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.o.d"
   "CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o"
   "CMakeFiles/PracticaEDatos.dir/Practica/main.cpp.o.d"
   "CMakeFiles/PracticaEDatos.dir/Practica/pila.cpp.o"

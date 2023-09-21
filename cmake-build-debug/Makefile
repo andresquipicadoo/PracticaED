@@ -129,30 +129,6 @@ PracticaEDatos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/build
 .PHONY : PracticaEDatos/fast
 
-Practica/clasesLego.o: Practica/clasesLego.cpp.o
-.PHONY : Practica/clasesLego.o
-
-# target to build an object file
-Practica/clasesLego.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.o
-.PHONY : Practica/clasesLego.cpp.o
-
-Practica/clasesLego.i: Practica/clasesLego.cpp.i
-.PHONY : Practica/clasesLego.i
-
-# target to preprocess a source file
-Practica/clasesLego.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.i
-.PHONY : Practica/clasesLego.cpp.i
-
-Practica/clasesLego.s: Practica/clasesLego.cpp.s
-.PHONY : Practica/clasesLego.s
-
-# target to generate assembly for a file
-Practica/clasesLego.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/Practica/clasesLego.cpp.s
-.PHONY : Practica/clasesLego.cpp.s
-
 Practica/main.o: Practica/main.cpp.o
 .PHONY : Practica/main.o
 
@@ -210,9 +186,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PracticaEDatos"
-	@echo "... Practica/clasesLego.o"
-	@echo "... Practica/clasesLego.i"
-	@echo "... Practica/clasesLego.s"
 	@echo "... Practica/main.o"
 	@echo "... Practica/main.i"
 	@echo "... Practica/main.s"

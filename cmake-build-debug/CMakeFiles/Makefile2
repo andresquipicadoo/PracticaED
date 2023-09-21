@@ -81,12 +81,12 @@ clean: CMakeFiles/PracticaEDatos.dir/clean
 CMakeFiles/PracticaEDatos.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PracticaEDatos.dir/build.make CMakeFiles/PracticaEDatos.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/aquir/OneDrive/Desktop/GitHub/PracticaEDatos/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target PracticaEDatos"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/aquir/OneDrive/Desktop/GitHub/PracticaEDatos/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target PracticaEDatos"
 .PHONY : CMakeFiles/PracticaEDatos.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PracticaEDatos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/aquir/OneDrive/Desktop/GitHub/PracticaEDatos/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/aquir/OneDrive/Desktop/GitHub/PracticaEDatos/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PracticaEDatos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/aquir/OneDrive/Desktop/GitHub/PracticaEDatos/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PracticaEDatos.dir/rule

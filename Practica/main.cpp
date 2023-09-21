@@ -16,7 +16,7 @@
 using namespace std;
 
 int main() {
-    // Punto A: Piezas de Lego de diferentes tipos
+    // Punto A: Piezas de lego de diferentes tipos
     piezalego pieza1 = {"Pared", 10, 5, 2};
     piezalego pieza2 = {"Ventana", 5, 5, 2};
     piezalego pieza3 = {"Techo", 10, 10, 2};
