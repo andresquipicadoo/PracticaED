@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//Se define una estructura para representar las piezas de Lego
+//Se define una estructura para representar las piezas de Lego.
 /**
  * @struct piezalego
  * @brief A struct representing a lego piece with its type, length, width and height.
@@ -22,7 +22,7 @@ struct piezalego {
 class Hogar {
 // Esta clase sirve para modelar los diferentes elementos que componen una casa.
 // Stack se utiliza en este caso para llevar un seguimiento  de los elementos de construcción de la
-// casa hecha de lego  como lo son (paredes, ventanas, techo y piso) de la casa de una manera mas especifica
+// casa hecha de lego  como lo son (paredes, ventanas, techo y piso) de la casa de una manera mas especifica.
 private:
     stack<piezalego> paredes;
     stack<piezalego> ventanas;
@@ -34,7 +34,7 @@ public:
     void construirPared() {
          //Explicacion :Este metodo de encarga de construir las paredes  de la casa.
         // En este caso type se usa para asignar un valor a un objeto
-        // que se llama "pared"
+        // que se llama "pared".
         // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada pared.
          piezalego pared;
@@ -46,7 +46,7 @@ public:
     void construirVentana() {
          //Explicacion :Este metodo de encarga de construir una ventana para la casa.
          // En este caso type se usa para asignar un valor a un objeto
-        // que se llama "ventana"
+        // que se llama "ventana".
         // La funcion push() se usa  para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada ventana.
          piezalego ventana;
@@ -59,7 +59,7 @@ public:
     void construirTecho() {
          //Explicacion : Este metodo de encarga de construir el techo para la casa qu en este caso siempre es rojo.
         // En este caso type se usa para asignar un valor a un objeto
-        // que se llama "techos"
+        // que se llama "techos".
         // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una estructura de datos llamada techo.
          piezalego techos;
@@ -72,7 +72,7 @@ public:
     void construirPiso() {
         //Explicacion :Este metodo de encarga de construir el piso  para la casa.
         // En este caso type se usa para asignar un valor a un objeto
-        // que se llama "pisos"
+        // que se llama "pisos".
         // La funcion push() se usa para agregar un objeto de tipo
         // piezalego a una  estructura de datos llamada piso.
         piezalego pisos;
@@ -83,7 +83,7 @@ public:
 
 
     void mostrarCasa() {
-         //Explicacion : Este metodo se encarga de mostrar la cantidad de paredes,puertas, ventanas ,pisos y techo que posee
+         //Explicacion : Este metodo se encarga de mostrar la cantidad de paredes,puertas, ventanas ,pisos y techo que posee.
          // la casa.
         cout << "Casa construida:" << endl;
         cout << "Paredes: " << paredes.size() << endl;
